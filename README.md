@@ -39,6 +39,7 @@ The best CV-selected model is SMOTE + Random Forest (mean CV PR-AUC `0.8663`). A
 ![Baseline versus resampling comparison](images/baseline_vs_resampling.png)
 
 ![Precision-recall curves](images/precision_recall_curve.png)
+![ROC-AUC curves](images/roc_curves.png)
 
 ![Final confusion matrices](images/final_confusion_matrices.png)
 
