@@ -58,8 +58,3 @@ Place the CSV at the project root, its parent, or `data/creditcard.csv` before r
 ## Reproducibility and Limitations
 The notebooks use seed `42` for splitting, estimators, sampling, and shuffled stratified folds. Dependencies are pinned in `requirements.txt`. The supplied dataset spans only two days and contains anonymized features; results do not establish performance under temporal drift, changing fraud strategies, production-scale alert constraints, or data from other issuers. The random stratified split may place temporally related transactions in both partitions. Future work should use time-based evaluation, probability calibration after resampling, cost-sensitive objectives, operational alert-budget analysis, and drift monitoring.
 
-## License and Attribution
-The notebooks, documentation, and project-specific code are released under the MIT License in `LICENSE`. The dataset is not included and is governed by its source's separate terms and ODbL 1.0 database license. Dataset attribution: Worldline and the Machine Learning Group, Université Libre de Bruxelles (ULB); see the [dataset source](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) for citation details.
-=======
-# credit-card-fraud-detection
->>>>>>> bdf4160899bf5f541f13cf6db01c00c0fd82f1df
