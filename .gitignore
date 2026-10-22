@@ -1,0 +1,17 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local source data and private files
+creditcard.csv
+data/
+*.parquet
+*.sqlite
+.env
+.DS_Store
