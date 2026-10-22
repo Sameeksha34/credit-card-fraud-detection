@@ -1,7 +1,7 @@
 
 # Credit Card Transaction Analytics & Fraud Detection
 
-A reproducible machine-learning study of highly imbalanced credit-card transactions. It compares six classifiers on the original class distribution, then evaluates random under-sampling, SMOTE, compact hyperparameter searches, and a training-only operating-threshold selection. Final measurements use the same untouched, naturally imbalanced test set.
+A machine-learning study of highly imbalanced credit-card transactions. It compares six classifiers on the original class distribution, then evaluates random under-sampling, SMOTE, compact hyperparameter searches, and a training-only operating-threshold selection. Final measurements use the same untouched, naturally imbalanced test set.
 
 ## Problem
 Only a tiny fraction of card transactions are fraudulent. Missing fraud can create direct losses, while overly aggressive detection creates costly false alarms and unnecessary card declines. Accuracy alone hides this trade-off because an always-genuine classifier can score highly on an imbalanced dataset.
