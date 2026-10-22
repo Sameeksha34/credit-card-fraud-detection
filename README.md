@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Credit Card Transaction Analytics & Fraud Detection
 
 A reproducible machine-learning study of highly imbalanced credit-card transactions. It compares six classifiers on the original class distribution, then evaluates random under-sampling, SMOTE, compact hyperparameter searches, and a training-only operating-threshold selection. Final measurements use the same untouched, naturally imbalanced test set.
@@ -59,3 +60,6 @@ The notebooks use seed `42` for splitting, estimators, sampling, and shuffled st
 
 ## License and Attribution
 The notebooks, documentation, and project-specific code are released under the MIT License in `LICENSE`. The dataset is not included and is governed by its source's separate terms and ODbL 1.0 database license. Dataset attribution: Worldline and the Machine Learning Group, Université Libre de Bruxelles (ULB); see the [dataset source](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) for citation details.
+=======
+# credit-card-fraud-detection
+>>>>>>> bdf4160899bf5f541f13cf6db01c00c0fd82f1df
